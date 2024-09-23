@@ -52,6 +52,8 @@ rustc-dep-of-std = [
 ]
 # Unstable/test-only feature to run wasm-bindgen tests in a browser
 test-in-browser = []
+# Use the custom implementation instead of the built-in ones
+prefer-custom = []
 
 [[test]]
 name = "custom"
